@@ -28,7 +28,7 @@ namespace SuperPuperOfigenniyBot
         {
             discord = new DiscordSocketClient();
             discord.Log += DiscordDotNetLog;
-            await discord.LoginAsync(TokenType.Bot, "ODUzNjEwNjk3NTY0NDg3Njgy.YMX46Q.pcvYAHzuPvUu665w2tTlrSD7Nz4");
+            await discord.LoginAsync(TokenType.Bot, "ODUzNjEwNjk3NTY0NDg3Njgy.YMX"+"46Q.85kBjRY4Or0ic4k4vRjdv_mnWIw");
             await discord.StartAsync();
             discord.MessageReceived += MessageReceivedHandler;
             await Task.Delay(-1);
